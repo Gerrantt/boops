@@ -10,3 +10,4 @@ function createWindow() {
     mainWindow.loadURL(`file://${__dirname}/index.html`);
     return mainWindow
 }
+app.on('ready', createWindow())
